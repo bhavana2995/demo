@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class ResultsPage extends DriverManager {
 
     public String ResultsName(){
-       return driver.findElement(By.id("searcTerm")).getText();
+       return driver.findElement(By.id("")).getText();
 
     }
 }
